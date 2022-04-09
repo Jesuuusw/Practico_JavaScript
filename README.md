@@ -7,4 +7,4 @@
 - Primer paso: definir las formulas
 - Segundo paso: implemetar la formulas en javaScript
 - Tercer paso: crear funciones
-- Cuarto paso: Integrar JS con JTML 
+- Cuarto paso: Integrar JS con HTML 
