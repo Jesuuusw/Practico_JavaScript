@@ -56,7 +56,6 @@ function areaTriangulo(base, altura) {
 }
 
 
-
 console.groupEnd();
 
 // Codigo del Circulo 
@@ -99,6 +98,39 @@ function areaCirculo(radio) {
 
 
 console.groupEnd();
+
+
+// Triangulo de Isosceles
+
+function alturaTriangulo(ladoA, ladoB, ladoBase) {
+    if(ladoA != ladoB) {
+       console.error("los lados a y b no son iguales")
+    } else {
+        
+    }
+}
+
+function alturaTrianguloIsosceles(trianguloGrandeLadoA, trianguloGrandeLadoB, trianguloGrandeLadoBase) {
+    if (trianguloGrandeLadoA != trianguloGrandeLadoB) {
+        console.error("Los lados a y b no son iguales");
+    } else {
+       
+        const trianguloPequenoLadoB = trianguloGrandeLadoBase / 2;
+        const trianguloPequenoLadoBase = trianguloGrandeLadoA;
+
+        const trianguloPequenoLadoBCuadrado = trianguloPequenoLadoB * trianguloPequenoLadoB;
+        const trianguloPequenoLadoBaseCuadrado = trianguloPequenoLadoBase * trianguloPequenoLadoBase
+
+        const trianguloPequenoLadoA = Math.sqrt(trianguloPequenoLadoBaseCuadrado - trianguloPequenoLadoBCuadrado);
+
+        const trianguloGrandeAltura = trianguloPequenoLadoA;
+        return trianguloGrandeAltura;
+    } 
+} 
+
+
+
+
 
 // Aquí interactuamos con el html 
 
